@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CashAppStocks(modifier: Modifier = Modifier) {
-    Navigation()
+    Navigation(modifier = modifier)
 }
 
 @Preview(showBackground = true)
